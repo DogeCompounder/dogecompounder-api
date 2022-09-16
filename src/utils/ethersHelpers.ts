@@ -3,6 +3,7 @@ import { addressBookByChainId, ChainId } from '../../packages/address-book/addre
 import { BeefyFinance } from '../../packages/address-book/types/beefyfinance';
 
 import {
+  DOGE_RPC,
   BSC_RPC_ENDPOINTS,
   HECO_RPC,
   AVAX_RPC,
@@ -37,10 +38,12 @@ import {
   EMERALD_CHAIN_ID,
   OPTIMISM_RPC,
   OPTIMISM_CHAIN_ID,
+  DOGE_CHAIN_ID,
 } from '../constants';
 
 console.log(addressBookByChainId[ChainId.fantom].platforms.beefyfinance.multicall);
 const MULTICALLS: Record<ChainId, Pick<BeefyFinance, 'multicall'>['multicall']> = {
+  [ChainId.doge]: addressBookByChainId[ChainId.doge].platforms.beefyfinance.multicall,
   [ChainId.bsc]: addressBookByChainId[ChainId.bsc].platforms.beefyfinance.multicall,
   [ChainId.heco]: addressBookByChainId[ChainId.heco].platforms.beefyfinance.multicall,
   [ChainId.polygon]: addressBookByChainId[ChainId.polygon].platforms.beefyfinance.multicall,
@@ -61,6 +64,7 @@ const MULTICALLS: Record<ChainId, Pick<BeefyFinance, 'multicall'>['multicall']> 
 };
 
 const clients: Record<keyof typeof ChainId, ethers.providers.JsonRpcProvider[]> = {
+  doge: [],
   bsc: [],
   heco: [],
   avax: [],
@@ -82,6 +86,7 @@ const clients: Record<keyof typeof ChainId, ethers.providers.JsonRpcProvider[]> 
 BSC_RPC_ENDPOINTS.forEach(endpoint => {
   clients.bsc.push(new ethers.providers.JsonRpcProvider(endpoint));
 });
+clients.doge.push(new ethers.providers.JsonRpcProvider(DOGE_RPC));
 clients.heco.push(new ethers.providers.JsonRpcProvider(HECO_RPC));
 clients.avax.push(new ethers.providers.JsonRpcProvider(AVAX_RPC));
 clients.polygon.push(new ethers.providers.JsonRpcProvider(POLYGON_RPC));
@@ -100,6 +105,7 @@ clients.emerald.push(new ethers.providers.JsonRpcProvider(EMERALD_RPC));
 clients.optimism.push(new ethers.providers.JsonRpcProvider(OPTIMISM_RPC));
 
 export const chainRandomClients = {
+  dogeRandomClient: () => clients.doge[~~(clients.doge.length * Math.random())],
   bscRandomClient: () => clients.bsc[~~(clients.bsc.length * Math.random())],
   hecoRandomClient: () => clients.heco[~~(clients.heco.length * Math.random())],
   avaxRandomClient: () => clients.avax[~~(clients.avax.length * Math.random())],
@@ -121,6 +127,8 @@ export const chainRandomClients = {
 
 export const _ethersFactory = (chainId: ChainId) => {
   switch (chainId) {
+    case DOGE_CHAIN_ID:
+      return chainRandomClients.dogeRandomClient();
     case BSC_CHAIN_ID:
       return chainRandomClients.bscRandomClient();
     case HECO_CHAIN_ID:

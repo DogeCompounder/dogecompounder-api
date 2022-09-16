@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "install-all": "yarn && cd packages/address-book && yarn",
+    "build": "tsc -p .",
     "start": "ts-node --transpile-only src/app.ts",
     "starttvl": "ts-node --heap-prof --transpile-only src/api/stats/getTvl.js",
     "heaptvl": "node -r ts-node/register --heap-prof src/api/stats/getTvl.js",

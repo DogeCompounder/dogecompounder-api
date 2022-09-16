@@ -5,7 +5,7 @@ const { dogeWeb3: web3, multicallAddress } = require('../../../../utils/web3');
 const MasterChef = require('../../../../abis/doge/YodeMasterChefV2.json');
 const ERC20 = require('../../../../abis/ERC20.json');
 const fetchPrice = require('../../../../utils/fetchPrice');
-const pools = require('../../../../data/doge/YodeLpPoolsV2.json');
+const pools = require('../../../../data/doge/yodeLpPoolsV2.json');
 const { compound } = require('../../../../utils/compound');
 const { BASE_HPY, DOGE_CHAIN_ID } = require('../../../../constants');
 const { getTradingFeeApr } = require('../../../../utils/getTradingFeeApr');
@@ -94,9 +94,7 @@ export const getYodeLpV2Apys = async () => {
 const getMasterChefData = async () => {
   const masterchefContract = getContractWithProvider(MasterChef, masterchef, web3);
   const blockRewards = new BigNumber(await masterchefContract.methods.yodePerBlock().call());
-  const totalAllocPoint = new BigNumber(
-    await masterchefContract.methods.totalAllocPoint().call()
-  );
+  const totalAllocPoint = new BigNumber(await masterchefContract.methods.totalAllocPoint().call());
   return { blockRewards, totalAllocPoint };
 };
 
