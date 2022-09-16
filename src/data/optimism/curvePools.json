@@ -1,0 +1,115 @@
+[
+  {
+    "name": "curve-op-f-fraxbp",
+    "pool": "0x29A3d66B30Bc4AD674A4FDAF27578B64f6afbFe7",
+    "token": "0x29A3d66B30Bc4AD674A4FDAF27578B64f6afbFe7",
+    "gauge": "0x4B960396011A914B4ccCC3b33DFEE83A97A9D766",
+    "boosted": true,
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "FRAX",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      }
+    ]
+  },
+  {
+    "name": "curve-op-f-sbtc",
+    "pool": "0x9F2fE3500B1a7E285FDc337acacE94c480e00130",
+    "token": "0x9F2fE3500B1a7E285FDc337acacE94c480e00130",
+    "oracleId": "WBTC",
+    "gauge": "0x172a5AF37f69C69CC59E748D090a70615830A5Dd",
+    "boosted": true,
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "sBTC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "WBTC",
+        "decimals": "1e8"
+      }
+    ]
+  },
+  {
+    "name": "curve-op-f-seth",
+    "pool": "0x7Bc5728BC2b59B45a58d9A576E2Ffc5f0505B35E",
+    "token": "0x7Bc5728BC2b59B45a58d9A576E2Ffc5f0505B35E",
+    "oracleId": "WETH",
+    "gauge": "0xCB8883D1D8c560003489Df43B30612AAbB8013bb",
+    "boosted": true,
+    "rewards": [
+      {
+        "token": "0x4200000000000000000000000000000000000042",
+        "oracleId": "OP"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "sETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "curve-op-3crv",
+    "pool": "0x1337BedC9D22ecbe766dF105c9623922A27963EC",
+    "token": "0x1337BedC9D22ecbe766dF105c9623922A27963EC",
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "DAI",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDT",
+        "decimals": "1e6"
+      }
+    ]
+  },
+  {
+    "name": "curve-op-f-susd",
+    "pool": "0x061b87122Ed14b9526A813209C8a59a633257bAb",
+    "token": "0x061b87122Ed14b9526A813209C8a59a633257bAb",
+    "gauge": "0xc5aE4B5F86332e70f3205a8151Ee9eD9F71e0797",
+    "boosted": true,
+    "rewards": [
+      {
+        "token": "0x4200000000000000000000000000000000000042",
+        "oracleId": "OP"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "sUSD",
+        "decimals": "1e18"
+      },
+      {
+        "basePool": "curve-op-3crv",
+        "oracle": "lps",
+        "oracleId": "curve-op-3crv",
+        "decimals": "1e18"
+      }
+    ]
+  }
+]
