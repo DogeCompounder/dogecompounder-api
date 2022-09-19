@@ -1,0 +1,122 @@
+[
+  {
+    "name": "boneswap-bone-wwdoge",
+    "address": "0x552de336afae1cd17bf1df517403f686f550f21e",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 0,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x16d0046597b0E3B136CDBB4edEb956D04232A711",
+      "oracle": "tokens",
+      "oracleId": "BONE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101",
+      "oracle": "tokens",
+      "oracleId": "DOGE",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "boneswap-bone-busd",
+    "address": "0x5704d76389bfbde1ab2b642ed9ea720bace88cc9",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 1,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x16d0046597b0E3B136CDBB4edEb956D04232A711",
+      "oracle": "tokens",
+      "oracleId": "BONE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "boneswap-busd-usdt",
+    "address": "0xa5f8d753f1a530a1e8a2b19ccada0600136a63f1",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 2,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+      "oracle": "tokens",
+      "oracleId": "USDT",
+      "decimals": "1e6"
+    }
+  },
+  {
+    "name": "boneswap-busd-usdc",
+    "address": "0x1d43d0f79bb55e4e799883dafb545f5d5f702bd6",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 6,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    }
+  },
+  {
+    "name": "boneswap-busd-wwdoge",
+    "address": "0x44b2f983b69c9d1f4e9e777ca181328ec136ae45",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 7,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101",
+      "oracle": "tokens",
+      "oracleId": "DOGE",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "boneswap-busd-eth",
+    "address": "0x7b7a1e7a5f71fea50d3c72673ad9ba6b0a3f2b57",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 8,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+      "oracle": "tokens",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    }
+  }
+]

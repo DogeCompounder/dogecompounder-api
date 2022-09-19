@@ -11,6 +11,7 @@ import { fetchCoinGeckoPrices } from '../../utils/fetchCoinGeckoPrices';
 import { getKey, setKey } from '../../utils/redisHelper';
 
 import getNonAmmPrices from './getNonAmmPrices';
+import boneLpPoolsV2 from '../../data/doge/boneLpPoolsV2.json';
 import kibLpPoolsV2 from '../../data/doge/kibLpPoolsV2.json';
 import yodeLpPoolsV2 from '../../data/doge/yodeLpPoolsV2.json';
 import bakeryPools from '../../data/bakeryLpPools.json';
@@ -117,9 +118,9 @@ import apePolyPools from '../../data/matic/apePolyLpPools.json';
 import polyQuityPools from '../../data/matic/polyQuityLpPools.json';
 import keeper50pools from '../../data/matic/50kLpPools.json';
 import dfynPools from '../../data/matic/dfynLpPools.json';
-import boneswapQuickPools from '../../data/matic/boneswapQuickLpPools.json';
-import boneswapSushiPools from '../../data/matic/boneswapSushiLpPools.json';
-import boneswapApePools from '../../data/matic/boneswapApeLpPools.json';
+//import boneswapQuickPools from '../../data/matic/boneswapQuickLpPools.json';
+//import boneswapSushiPools from '../../data/matic/boneswapSushiLpPools.json';
+//import boneswapApePools from '../../data/matic/boneswapApeLpPools.json';
 import maiPools from '../../data/matic/maiLpPools.json';
 import jetswapPolyPools from '../../data/matic/jetswapLpPools.json';
 import farmheroPolygonPools from '../../data/matic/farmheroPools.json';
@@ -254,6 +255,7 @@ const REFRESH_INTERVAL = 5 * 60 * 1000;
 const pools = [
   ...kibLpPoolsV2,
   ...yodeLpPoolsV2,
+  ...boneLpPoolsV2,
 
   ...spiritV2Pools,
   ...conePools,
@@ -376,9 +378,9 @@ const pools = [
   ...ironSwapPools,
   ...jetswapPolyPools,
   ...maiPools,
-  ...boneswapApePools,
-  ...boneswapSushiPools,
-  ...boneswapQuickPools,
+  //...boneswapApePools,
+  //...boneswapSushiPools,
+  //...boneswapQuickPools,
   ...polycatDfynPool,
   ...dfynPools,
   ...keeper50pools,

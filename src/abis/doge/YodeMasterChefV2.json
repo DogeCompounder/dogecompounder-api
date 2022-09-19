@@ -485,9 +485,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-
-    ],
+    "inputs": [],
     "name": "yodePerBlock",
     "outputs": [
       {
@@ -691,7 +689,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingCake",
+    "name": "pendingYode",
     "outputs": [
       {
         "internalType": "uint256",

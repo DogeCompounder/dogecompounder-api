@@ -8,144 +8,120 @@ const DOGE = {
   chainId: 2000,
   decimals: 18,
   website: '',
-  description:
-    '',
-  logoURI:
-    '',
+  description: '',
+  logoURI: '',
 } as const;
 
 const _tokens = {
   KIB: {
     name: 'Kibble',
     symbol: 'KIB',
-    address: '0x1e1026ba0810e6391b0f86afa8a9305c12713b66',
+    address: '0x1e1026ba0810e6391b0F86AFa8A9305c12713B66',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   USDCm: {
     name: 'USD Coin',
     symbol: 'USDC',
-    address: '0x765277eebeca2e31912c9946eae1021199b39c61',
+    address: '0x765277EebeCA2e31912C9946eAe1021199B39C61',
     chainId: 2000,
     decimals: 6,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   DC: {
     name: 'Dogechain Token',
     symbol: 'DC',
-    address: '0x7b4328c127b85369d9f82ca0503b000d09cf9180',
+    address: '0x7B4328c127B85369D9f82ca0503B000D09CF9180',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   USDTm: {
     name: 'Tether USD',
     symbol: 'USDT',
-    address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
+    address: '0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D',
     chainId: 2000,
     decimals: 6,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   DAIm: {
     name: 'Dai Stablecoin',
     symbol: 'DAI',
-    address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
+    address: '0x639A647fbe20b6c8ac19E48E2de44ea792c62c5C',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   ETH: {
     name: 'Ethereum',
     symbol: 'ETH',
-    address: '0xb44a9b6905af7c801311e8f4e76932ee959c663c',
+    address: '0xB44a9B6905aF7c801311e8F4E76932ee959c663C',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   WETH: {
     name: 'Wrapped ETH',
     symbol: 'WETH',
-    address: '0x9f4614e4ea4a0d7c4b1f946057ec030bee416cbb',
+    address: '0x9F4614E4Ea4A0D7c4B1F946057eC030beE416cbB',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   USDC: {
     name: 'USD Coin',
     symbol: 'USDC',
-    address: '0x85c2d3bebffd83025910985389ab8ad655abc946',
+    address: '0x85C2D3bEBffD83025910985389aB8aD655aBC946',
     chainId: 2000,
     decimals: 6,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   USDT: {
     name: 'Tether USDT',
     symbol: 'USDT',
-    address: '0x7f8e71dd5a7e445725f0ef94c7f01806299e877a',
+    address: '0x7f8e71DD5A7e445725F0EF94c7F01806299e877A',
     chainId: 2000,
     decimals: 6,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   DAI: {
     name: 'Dai Stablecoin',
     symbol: 'DAI',
-    address: '0xb3306f03595490e5cc3a1b1704a5a158d3436ffc',
+    address: '0xB3306f03595490e5cC3a1b1704a5a158D3436ffC',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   CHEWY: {
     name: 'CHEWY',
     symbol: 'CHEWY',
-    address: '0xba2fa659f475f69eeefa245523dba9c14bba7163',
+    address: '0xbA2fa659f475f69EeEFa245523DBa9C14BbA7163',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   YODE: {
     name: 'YodeDEX Token',
@@ -153,23 +129,19 @@ const _tokens = {
     address: '0x6FC4563460d5f45932C473334d5c1C5B4aEA0E01',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   DOGEPUP: {
     name: 'DOGE PUP TOKEN',
     symbol: 'DOGEPUP',
-    address: '0x1b15b9446b9f632a78396a1680daae17f74ce8d9',
+    address: '0x1b15b9446b9f632a78396a1680DAaE17f74Ce8d9',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   WBTC: {
     name: 'Wrapped BTC',
@@ -177,11 +149,9 @@ const _tokens = {
     address: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
     chainId: 2000,
     decimals: 8,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   BNB: {
     name: 'Binance',
@@ -189,11 +159,9 @@ const _tokens = {
     address: '0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   BUSD: {
     name: 'BUSD Token',
@@ -201,11 +169,9 @@ const _tokens = {
     address: '0x332730a4F6E03D9C55829435f10360E13cfA41Ff',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
   },
   SLURP: {
     name: 'FKSLURPDEV',
@@ -213,11 +179,19 @@ const _tokens = {
     address: '0x0caE51e1032e8461f4806e26332c030E34De3aDb',
     chainId: 2000,
     decimals: 18,
-    logoURI:
-      '',
+    logoURI: '',
     website: '',
-    description:
-      '',
+    description: '',
+  },
+  BONE: {
+    name: 'BONE',
+    symbol: 'BONE',
+    address: '0x16d0046597b0E3B136CDBB4edEb956D04232A711',
+    chainId: 2000,
+    decimals: 18,
+    logoURI: '',
+    website: '',
+    description: '',
   },
 } as const;
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

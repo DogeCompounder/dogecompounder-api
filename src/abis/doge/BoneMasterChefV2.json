@@ -486,7 +486,7 @@
   },
   {
     "inputs": [],
-    "name": "kibPerSecond",
+    "name": "BonePerSecond",
     "outputs": [
       {
         "internalType": "uint256",
@@ -689,7 +689,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingKib",
+    "name": "pendingBone",
     "outputs": [
       {
         "internalType": "uint256",
@@ -722,12 +722,22 @@
       },
       {
         "internalType": "uint256",
-        "name": "lastRewardTime",
+        "name": "lastRewardSecond",
         "type": "uint256"
       },
       {
         "internalType": "uint256",
-        "name": "accKIBPerShare",
+        "name": "accBonePerShare",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint16",
+        "name": "depositFeeBP",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint256",
+        "name": "lpSupply",
         "type": "uint256"
       }
     ],

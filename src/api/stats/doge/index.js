@@ -1,10 +1,8 @@
+const { getBoneLpV2Apys } = require('./boneswap/getBoneLpV2Apys');
 const { getKibLpV2Apys } = require('./kibbleswap/getKibLpV2Apys');
 const { getYodeLpV2Apys } = require('./yodeswap/getYodeLpV2Apys');
 
-const getApys = [
-  getKibLpV2Apys,
-  getYodeLpV2Apys,
-];
+const getApys = [getKibLpV2Apys, getYodeLpV2Apys, getBoneLpV2Apys];
 // ^^ APYs are sorted alphabetically
 
 const getDogeApys = async () => {
@@ -14,7 +12,6 @@ const getDogeApys = async () => {
   let promises = [];
   getApys.forEach(getApy => promises.push(getApy()));
   const results = await Promise.allSettled(promises);
-
 
   for (const result of results) {
     if (result.status !== 'fulfilled') {
