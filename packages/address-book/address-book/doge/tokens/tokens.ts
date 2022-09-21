@@ -206,7 +206,7 @@ const _tokens = {
   OMNOM: {
     name: 'Doge Eat Doge',
     symbol: 'OMNOM',
-    address: '0xe3fca919883950c5cd468156392a6477ff5d18de',
+    address: '0xe3fcA919883950c5cD468156392a6477Ff5d18de',
     chainId: 2000,
     decimals: 18,
     logoURI: '',
