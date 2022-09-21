@@ -11,9 +11,12 @@ import { fetchCoinGeckoPrices } from '../../utils/fetchCoinGeckoPrices';
 import { getKey, setKey } from '../../utils/redisHelper';
 
 import getNonAmmPrices from './getNonAmmPrices';
+
+import dmuskLpPoolsV2 from '../../data/doge/dmuskLpPoolsV2.json';
 import boneLpPoolsV2 from '../../data/doge/boneLpPoolsV2.json';
 import kibLpPoolsV2 from '../../data/doge/kibLpPoolsV2.json';
 import yodeLpPoolsV2 from '../../data/doge/yodeLpPoolsV2.json';
+
 import bakeryPools from '../../data/bakeryLpPools.json';
 import blizzardLpPools from '../../data/degens/blizzardLpPools.json';
 import alpacaLpPools from '../../data/alpacaLpPools.json';
@@ -256,6 +259,7 @@ const pools = [
   ...kibLpPoolsV2,
   ...yodeLpPoolsV2,
   ...boneLpPoolsV2,
+  ...dmuskLpPoolsV2,
 
   ...spiritV2Pools,
   ...conePools,

@@ -1,6 +1,8 @@
 import { kibbleswap } from './platforms/kibbleswap';
 import { yodeswap } from './platforms/yodeswap';
 import { beefyfinance } from './platforms/beefyfinance';
+import { boneswap } from './platforms/boneswap';
+import { dogemuskswap } from './platforms/dogemuskswap';
 import { tokens } from './tokens/tokens';
 import { convertSymbolTokenMapToAddressTokenMap } from '../../util/convertSymbolTokenMapToAddressTokenMap';
 import Chain from '../../types/chain';
@@ -10,6 +12,8 @@ const _doge = {
   platforms: {
     kibbleswap,
     yodeswap,
+    boneswap,
+    dogemuskswap,
     beefyfinance,
   },
   tokens,

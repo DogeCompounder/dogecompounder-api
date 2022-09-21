@@ -1,8 +1,9 @@
 const { getBoneLpV2Apys } = require('./boneswap/getBoneLpV2Apys');
 const { getKibLpV2Apys } = require('./kibbleswap/getKibLpV2Apys');
 const { getYodeLpV2Apys } = require('./yodeswap/getYodeLpV2Apys');
+const { getDmuskLpV2Apys } = require('./dogemuskswap/getDmuskLpV2Apys');
 
-const getApys = [getKibLpV2Apys, getYodeLpV2Apys, getBoneLpV2Apys];
+const getApys = [getKibLpV2Apys, getYodeLpV2Apys, getBoneLpV2Apys, getDmuskLpV2Apys];
 // ^^ APYs are sorted alphabetically
 
 const getDogeApys = async () => {
