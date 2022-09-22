@@ -492,7 +492,7 @@
         "type": "bool"
       }
     ],
-    "name": "omgPerBlock",
+    "name": "wojkPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -695,7 +695,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingOmg",
+    "name": "pendingWojk",
     "outputs": [
       {
         "internalType": "uint256",
@@ -718,7 +718,7 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "accCakePerShare",
+        "name": "accWojkPerShare",
         "type": "uint256"
       },
       {

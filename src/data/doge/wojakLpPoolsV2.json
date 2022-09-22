@@ -1,0 +1,162 @@
+[
+  {
+    "name": "wojak-wojk-wwdoge",
+    "address": "0xf4da9059f5bb18b50773fe1725b94fc189e1b75c",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 2,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x570C41a71b5e2cb8FF4445184d7ff6f78A4DbcBD",
+      "oracle": "tokens",
+      "oracleId": "WOJK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101",
+      "oracle": "tokens",
+      "oracleId": "DOGE",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "wojak-usdc-wwdoge",
+    "address": "0xcdbe962de3bdc40e790e48657721295c991d50e3",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 3,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101",
+      "oracle": "tokens",
+      "oracleId": "DOGE",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "wojak-wojk-usdc",
+    "address": "0xc1fabe61b9cfc005a51e1ea899c3d65fb6392497",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 4,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x570C41a71b5e2cb8FF4445184d7ff6f78A4DbcBD",
+      "oracle": "tokens",
+      "oracleId": "WOJK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    }
+  },
+  {
+    "name": "wojak-usdc-usdt",
+    "address": "0x4c7a746b038bf284316195733da8839959a550a0",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 5,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+      "oracle": "tokens",
+      "oracleId": "USDT",
+      "decimals": "1e6"
+    }
+  },
+  {
+    "name": "wojak-busd-usdc",
+    "address": "0x311f8804aeecc98da11c128c96182c4b3e6a34e2",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 6,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x332730a4F6E03D9C55829435f10360E13cfA41Ff",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    }
+  },
+  {
+    "name": "wojak-usdc-eth",
+    "address": "0xefce65a87c385f8c3b5de0f7cdeae7633d72e14b",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 7,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+      "oracle": "tokens",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "wojak-usdc-bnb",
+    "address": "0x1e7bf76e85bae55338924aba733d2deb68716b31",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 8,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F",
+      "oracle": "tokens",
+      "oracleId": "BNB",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "wojak-dc-wwdoge",
+    "address": "0xf63fb7511a26e442cb890d13f7bb7d7012f4941a",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "poolId": 9,
+    "chainId": 2000,
+    "lp0": {
+      "address": "0x7B4328c127B85369D9f82ca0503B000D09CF9180",
+      "oracle": "tokens",
+      "oracleId": "DC",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101",
+      "oracle": "tokens",
+      "oracleId": "DOGE",
+      "decimals": "1e18"
+    }
+  }
+]

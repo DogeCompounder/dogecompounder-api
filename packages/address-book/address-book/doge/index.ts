@@ -3,6 +3,7 @@ import { yodeswap } from './platforms/yodeswap';
 import { beefyfinance } from './platforms/beefyfinance';
 import { boneswap } from './platforms/boneswap';
 import { dogemuskswap } from './platforms/dogemuskswap';
+import { wojak } from './platforms/wojak';
 import { tokens } from './tokens/tokens';
 import { convertSymbolTokenMapToAddressTokenMap } from '../../util/convertSymbolTokenMapToAddressTokenMap';
 import Chain from '../../types/chain';
@@ -14,6 +15,7 @@ const _doge = {
     yodeswap,
     boneswap,
     dogemuskswap,
+    wojak,
     beefyfinance,
   },
   tokens,

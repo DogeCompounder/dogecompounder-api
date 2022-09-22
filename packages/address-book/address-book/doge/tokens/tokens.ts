@@ -223,5 +223,15 @@ const _tokens = {
     website: '',
     description: '',
   },
+  WOJK: {
+    name: 'Wojak',
+    symbol: 'WOJK',
+    address: '0x570C41a71b5e2cb8FF4445184d7ff6f78A4DbcBD',
+    chainId: 2000,
+    decimals: 18,
+    logoURI: '',
+    website: '',
+    description: '',
+  },
 } as const;
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;
