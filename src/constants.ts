@@ -115,42 +115,24 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
   [ChainId.optimism]: OPTIMISM_RPC,
 };
 
-const DOGE_VAULTS_ENDPOINT = 
-  'https://raw.githubusercontent.com/DogeCompounder/DogeCompounderApi/main/doge_vaults.json'
-const BSC_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/bsc.json';
-const HECO_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/heco.json';
-const AVAX_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/avax.json';
-const POLYGON_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/polygon.json';
-const FANTOM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/fantom.json';
-const ONE_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/harmony.json';
-const ARBITRUM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/arbitrum.json';
-const CELO_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/celo.json';
-const MOONRIVER_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/moonriver.json';
-const CRONOS_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/cronos.json';
-const AURORA_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/aurora.json';
-const FUSE_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/fuse.json';
-const METIS_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/metis.json';
-const MOONBEAM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/moonbeam.json';
-//  const SYS_VAULTS_ENDPOINT =
-//  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/sys.json';
-const EMERALD_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/emerald.json';
-const OPTIMISM_VAULTS_ENDPOINT =
-  'https://raw.githubusercontent.com/beefyfinance/beefy-v2/prod/src/config/vault/optimism.json';
+const DOGE_VAULTS_ENDPOINT =
+  'https://raw.githubusercontent.com/DogeCompounder/DogeCompounderApi/main/doge_vaults.json';
+const BSC_VAULTS_ENDPOINT = '';
+const HECO_VAULTS_ENDPOINT = '';
+const AVAX_VAULTS_ENDPOINT = '';
+const POLYGON_VAULTS_ENDPOINT = '';
+const FANTOM_VAULTS_ENDPOINT = '';
+const ONE_VAULTS_ENDPOINT = '';
+const ARBITRUM_VAULTS_ENDPOINT = '';
+const CELO_VAULTS_ENDPOINT = '';
+const MOONRIVER_VAULTS_ENDPOINT = '';
+const CRONOS_VAULTS_ENDPOINT = '';
+const AURORA_VAULTS_ENDPOINT = '';
+const FUSE_VAULTS_ENDPOINT = '';
+const METIS_VAULTS_ENDPOINT = '';
+const MOONBEAM_VAULTS_ENDPOINT = '';
+const EMERALD_VAULTS_ENDPOINT = '';
+const OPTIMISM_VAULTS_ENDPOINT = '';
 
 const MULTICHAIN_ENDPOINTS = {
   doge: DOGE_VAULTS_ENDPOINT,
