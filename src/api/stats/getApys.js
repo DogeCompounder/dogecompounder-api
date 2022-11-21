@@ -2,9 +2,9 @@ const { getDogeApys } = require('./doge');
 /*const { getAvaxApys } = require('./avax');
 const { getMaticApys } = require('./matic');
 const { getHecoApys } = require('./heco');
-const { getFantomApys } = require('./fantom');
+const { getFantomApys } = require('./fantom');*/
 const { getBSCApys } = require('./bsc');
-const { getOneApys } = require('./one');
+/*const { getOneApys } = require('./one');
 const { getArbitrumApys } = require('./arbitrum');
 const { getCeloApys } = require('./celo');
 const { getMoonriverApys } = require('./moonriver');
@@ -40,9 +40,9 @@ const updateApys = async () => {
       /*getMaticApys(),
       getAvaxApys(),
       getFantomApys(),
-      getHecoApys(),
+      getHecoApys(),*/
       getBSCApys(),
-      getOneApys(),
+      /*getOneApys(),
       getArbitrumApys(),
       getCeloApys(),
       getMoonriverApys(),

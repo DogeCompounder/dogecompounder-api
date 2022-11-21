@@ -117,7 +117,8 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
 
 const DOGE_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/DogeCompounder/DogeCompounderApi/main/doge_vaults.json';
-const BSC_VAULTS_ENDPOINT = '';
+const BSC_VAULTS_ENDPOINT =
+  'https://raw.githubusercontent.com/JustYield-Finance/DogeCompounderApi/main/doge_vaults.json';
 const HECO_VAULTS_ENDPOINT = '';
 const AVAX_VAULTS_ENDPOINT = '';
 const POLYGON_VAULTS_ENDPOINT = '';
@@ -136,8 +137,8 @@ const OPTIMISM_VAULTS_ENDPOINT = '';
 
 const MULTICHAIN_ENDPOINTS = {
   doge: DOGE_VAULTS_ENDPOINT,
-  /*bsc: BSC_VAULTS_ENDPOINT,
-  avax: AVAX_VAULTS_ENDPOINT,
+  bsc: BSC_VAULTS_ENDPOINT,
+  /*avax: AVAX_VAULTS_ENDPOINT,
   polygon: POLYGON_VAULTS_ENDPOINT,
   fantom: FANTOM_VAULTS_ENDPOINT,
   one: ONE_VAULTS_ENDPOINT,

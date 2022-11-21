@@ -29,6 +29,7 @@ const getbeCakeApy = require('./pancake/getbeCakeApy');
 const getbeCakeEarnApy = require('./pancake/getbeCakeEarnApy');
 const { getDotDotApy } = require('./getDotDotApy');
 const getConeApys = require('./getConeApys');
+const { getWombexApy } = require('./getWombexApy');
 
 const getApys = [
   getAlpacaApys,
@@ -62,6 +63,7 @@ const getApys = [
   getbeCakeApy,
   getbeCakeEarnApy,
   getDotDotApy,
+  getWombexApy,
 ];
 // ^^ APYs are sorted alphabetically
 

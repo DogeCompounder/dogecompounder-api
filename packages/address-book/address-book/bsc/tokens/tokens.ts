@@ -3790,5 +3790,17 @@ const _tokens = {
     description:
       'TOR is a fully collateralized stablecoin which acts as a foundational pillar within the Hector Network Ecosystem. Its unique smart contracts made it the first of its kind, creating positive price action for the HEC token each time a TOR coin is minted and empowering Hector Network to become deflationary.',
   },
+  WMX: {
+    name: 'Wombex Token',
+    symbol: 'WMX',
+    address: '0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD',
+    chainId: 56,
+    decimals: 18,
+    logoURI:
+      'https://tokens.pancakeswap.finance/images/0xa75d9ca2a0a1D547409D82e1B06618EC284A2CeD.svg',
+    website: 'https://www.wombex.finance/',
+    description:
+      'Boosting yield for liquidity providers and concentrating governance power across Wombat.',
+  },
 } as const;
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;
