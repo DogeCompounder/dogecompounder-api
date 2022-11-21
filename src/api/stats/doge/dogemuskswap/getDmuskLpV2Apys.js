@@ -14,7 +14,7 @@ import { getFarmWithTradingFeesApy } from '../../../../utils/getFarmWithTradingF
 import { PCS_LPF } from '../../../../constants';
 import { getContract, getContractWithProvider } from '../../../../utils/contractHelper';
 
-const masterchef = '0xc2d7cc96b22eEdcD57a6a11Ac529f87CB94c733A';
+const masterchef = '0x65C3ACA5A050e360Aa60d680BBE24077C3b655b0';
 const oracle = 'tokens';
 const oracleId = 'DMUSK';
 const DECIMALS = '1e18';
