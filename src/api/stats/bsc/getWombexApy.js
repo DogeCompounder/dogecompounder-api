@@ -41,6 +41,11 @@ const pools = [
     oracleId: 'BUSD',
     rewardPool: '0x6E85A35fFfE1326e230411f4f3c31c493B05263C',
   },
+  {
+    name: 'bsc-single-usdt',
+    oracleId: 'USDT',
+    rewardPool: '0x1964FfE993d1DA4cA0c717C9eA16A7846b4f13aB',
+  },
 ];
 
 export const getWombexApy = async () => {
