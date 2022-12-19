@@ -28,6 +28,7 @@ const getBalancerPolyApys = require('./getBalancerPolyApys');
 const getGiddyApys = require('./getGiddyApys');
 const getSolaceApy = require('./getSolaceApy');
 const getDystopiaApys = require('./getDystopiaApys');
+const { getSandboxApy } = require('./getSandboxApy');
 
 const getApys = [
   getbeQiApy,
@@ -59,6 +60,7 @@ const getApys = [
   getGiddyApys,
   getSolaceApy,
   getDystopiaApys,
+  getSandboxApy,
 ];
 
 const BATCH_SIZE = 15;

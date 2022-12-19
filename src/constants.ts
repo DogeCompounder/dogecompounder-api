@@ -121,7 +121,8 @@ const BSC_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/JustYield-Finance/DogeCompounderApi/main/doge_vaults.json';
 const HECO_VAULTS_ENDPOINT = '';
 const AVAX_VAULTS_ENDPOINT = '';
-const POLYGON_VAULTS_ENDPOINT = '';
+const POLYGON_VAULTS_ENDPOINT =
+  'https://raw.githubusercontent.com/JustYield-Finance/DogeCompounderApi/main/polygon_vaults.json';
 const FANTOM_VAULTS_ENDPOINT = '';
 const ONE_VAULTS_ENDPOINT = '';
 const ARBITRUM_VAULTS_ENDPOINT = '';
@@ -138,9 +139,9 @@ const OPTIMISM_VAULTS_ENDPOINT = '';
 const MULTICHAIN_ENDPOINTS = {
   doge: DOGE_VAULTS_ENDPOINT,
   bsc: BSC_VAULTS_ENDPOINT,
-  /*avax: AVAX_VAULTS_ENDPOINT,
+  //avax: AVAX_VAULTS_ENDPOINT,
   polygon: POLYGON_VAULTS_ENDPOINT,
-  fantom: FANTOM_VAULTS_ENDPOINT,
+  /*fantom: FANTOM_VAULTS_ENDPOINT,
   one: ONE_VAULTS_ENDPOINT,
   arbitrum: ARBITRUM_VAULTS_ENDPOINT,
   celo: CELO_VAULTS_ENDPOINT,
