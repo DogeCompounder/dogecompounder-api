@@ -20,7 +20,7 @@
     }
   },
   {
-    "name": "mai-usdc-mimatic",
+    "name": "polygon-mai-usdc-quickswap",
     "address": "0x160532D2536175d65C03B97b0630A9802c274daD",
     "decimals": "1e18",
     "poolId": 0,

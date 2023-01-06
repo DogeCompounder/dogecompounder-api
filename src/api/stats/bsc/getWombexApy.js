@@ -82,7 +82,6 @@ const getPoolApys = async pools => {
     periodFinish: new BigNumber(v.tokenRewards[1]),
     rewardRate: new BigNumber(v.tokenRewards[2]),
   }));
-  console.log(poolInfo, 'Wombex Results');
   const extras = res[1].map(v => ({
     ...v,
     periodFinish: new BigNumber(v.tokenRewards[1]),

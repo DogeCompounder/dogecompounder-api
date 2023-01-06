@@ -9,7 +9,7 @@ const mai = addressBook.polygon.platforms.mai;
 
 const getMaiApys = async () =>
   getMasterChefApys({
-    masterchef: mai.chef3,
+    masterchef: mai.chef4,
     masterchefAbi: MasterChefAbi as AbiItem[],
     tokenPerBlock: 'rewardPerSecond',
     hasMultiplier: false,
