@@ -1,4 +1,4 @@
-const getAlpacaApys = require('./alpaca/getAlpacaApys');
+/*const getAlpacaApys = require('./alpaca/getAlpacaApys');
 const getBeltApys = require('./belt/getBeltApys');
 const { getDegensLpApys } = require('./degens');
 const getIcarusApys = require('./icarus/getIcarusApys');
@@ -28,11 +28,11 @@ const getValasLpApys = require('./valas/getValasLpApys');
 const getbeCakeApy = require('./pancake/getbeCakeApy');
 const getbeCakeEarnApy = require('./pancake/getbeCakeEarnApy');
 const { getDotDotApy } = require('./getDotDotApy');
-const getConeApys = require('./getConeApys');
+const getConeApys = require('./getConeApys');*/
 const { getWombexApy } = require('./getWombexApy');
 
 const getApys = [
-  getAlpacaApys,
+  /*getAlpacaApys,
   getBeltApys,
   getBifiGovApy,
   getBifiMaxiApy,
@@ -62,7 +62,7 @@ const getApys = [
   getValasLpApys,
   getbeCakeApy,
   getbeCakeEarnApy,
-  getDotDotApy,
+  getDotDotApy,*/
   getWombexApy,
 ];
 // ^^ APYs are sorted alphabetically

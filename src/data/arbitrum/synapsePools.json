@@ -1,0 +1,18 @@
+[
+  {
+    "name": "arbitrum-synapse-usdt",
+    "address": "0xcFd72be67Ee69A0dd7cF0f846Fc0D98C33d60F16",
+    "decimals": "1e18",
+    "poolId": 3,
+    "chainId": 42161,
+    "swap": "0x9Dd329F5411466d9e0C488fF72519CA9fEf0cb40"
+  },
+  {
+    "name": "arbitrum-synapse-usdc",
+    "address": "0xcFd72be67Ee69A0dd7cF0f846Fc0D98C33d60F16",
+    "decimals": "1e18",
+    "poolId": 3,
+    "chainId": 42161,
+    "swap": "0x9Dd329F5411466d9e0C488fF72519CA9fEf0cb40"
+  }
+]

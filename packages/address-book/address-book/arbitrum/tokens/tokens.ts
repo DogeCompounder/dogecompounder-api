@@ -244,6 +244,14 @@ const _tokens = {
       'Radiant aims to be the first omnichain money market, where users can deposit any major asset on any major chain and borrow a variety of supported assets across multiple chains.',
     logoURI: '',
   },
+  SYN: {
+    chainId: 42161,
+    address: '0x080F6AEd32Fc474DD5717105Dba5ea57268F46eb',
+    decimals: 18,
+    name: 'Synapse Protocol',
+    symbol: 'SYN',
+    logoURI: '',
+  },
 } as const;
 
 export const tokens: ConstRecord<typeof _tokens, Token> = _tokens;

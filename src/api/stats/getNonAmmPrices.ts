@@ -16,6 +16,7 @@ import getCurveOptimismPrices from './optimism/getCurvePrices';
 import getCurveMoonbeamPrices from './moonbeam/getCurvePrices';
 import getBeethovenxPrices from './fantom/getBeethovenxPrices';
 import { getSynapsePrices } from './avax/getSynapsePrices';
+import { getArbiSynapsePrices } from './arbitrum/getSynapsePrices';
 import getJarvisPrices from './matic/getJarvisPrices';
 import getSolarbeamPrices from './moonriver/getSolarbeamPrices';
 import getRosePrices from './aurora/getRosePrices';
@@ -67,6 +68,7 @@ const getNonAmmPrices = async tokenPrices => {
     getIronSwapPrices(),
     getAlpacaIbPrices(tokenPrices),
     getSynapsePrices(),
+    getArbiSynapsePrices(),
     getJarvisPrices(tokenPrices),
     getSolarbeamPrices(tokenPrices),
     getStellaswapPrices(tokenPrices),

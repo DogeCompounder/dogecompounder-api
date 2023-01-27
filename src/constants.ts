@@ -125,7 +125,8 @@ const POLYGON_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/JustYield-Finance/DogeCompounderApi/main/polygon_vaults.json';
 const FANTOM_VAULTS_ENDPOINT = '';
 const ONE_VAULTS_ENDPOINT = '';
-const ARBITRUM_VAULTS_ENDPOINT = '';
+const ARBITRUM_VAULTS_ENDPOINT =
+  'https://raw.githubusercontent.com/JustYield-Finance/DogeCompounderApi/main/arbitrum_vaults.json';
 const CELO_VAULTS_ENDPOINT = '';
 const MOONRIVER_VAULTS_ENDPOINT = '';
 const CRONOS_VAULTS_ENDPOINT = '';
@@ -141,20 +142,20 @@ const MULTICHAIN_ENDPOINTS = {
   bsc: BSC_VAULTS_ENDPOINT,
   //avax: AVAX_VAULTS_ENDPOINT,
   polygon: POLYGON_VAULTS_ENDPOINT,
-  /*fantom: FANTOM_VAULTS_ENDPOINT,
-  one: ONE_VAULTS_ENDPOINT,
+  //fantom: FANTOM_VAULTS_ENDPOINT,
+  //one: ONE_VAULTS_ENDPOINT,
   arbitrum: ARBITRUM_VAULTS_ENDPOINT,
-  celo: CELO_VAULTS_ENDPOINT,
-  moonriver: MOONRIVER_VAULTS_ENDPOINT,
-  cronos: CRONOS_VAULTS_ENDPOINT,
-  aurora: AURORA_VAULTS_ENDPOINT,
-  fuse: FUSE_VAULTS_ENDPOINT,
-  metis: METIS_VAULTS_ENDPOINT,
-  moonbeam: MOONBEAM_VAULTS_ENDPOINT,
+  //celo: CELO_VAULTS_ENDPOINT,
+  //moonriver: MOONRIVER_VAULTS_ENDPOINT,
+  //cronos: CRONOS_VAULTS_ENDPOINT,
+  //aurora: AURORA_VAULTS_ENDPOINT,
+  //fuse: FUSE_VAULTS_ENDPOINT,
+  //metis: METIS_VAULTS_ENDPOINT,
+  //moonbeam: MOONBEAM_VAULTS_ENDPOINT,
   // sys: SYS_VAULTS_ENDPOINT,
-  emerald: EMERALD_VAULTS_ENDPOINT,
-  optimism: OPTIMISM_VAULTS_ENDPOINT,
-  heco: HECO_VAULTS_ENDPOINT,*/
+  //emerald: EMERALD_VAULTS_ENDPOINT,
+  //optimism: OPTIMISM_VAULTS_ENDPOINT,
+  //heco: HECO_VAULTS_ENDPOINT,
 };
 
 const BEEFY_PERFORMANCE_FEE = 0.045;

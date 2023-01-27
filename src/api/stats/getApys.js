@@ -1,21 +1,21 @@
-const { getDogeApys } = require('./doge');
+//const { getDogeApys } = require('./doge');
 //const { getAvaxApys } = require('./avax');
 const { getMaticApys } = require('./matic');
-/*const { getHecoApys } = require('./heco');
-const { getFantomApys } = require('./fantom');*/
+//const { getHecoApys } = require('./heco');
+//const { getFantomApys } = require('./fantom');
 const { getBSCApys } = require('./bsc');
-/*const { getOneApys } = require('./one');
+//const { getOneApys } = require('./one');
 const { getArbitrumApys } = require('./arbitrum');
-const { getCeloApys } = require('./celo');
-const { getMoonriverApys } = require('./moonriver');
-const { getCronosApys } = require('./cronos');
-const { getAuroraApys } = require('./aurora');
-const { getFuseApys } = require('./fuse');
-const { getMetisApys } = require('./metis');
-const { getMoonbeamApys } = require('./moonbeam');
-const { getSysApys } = require('./sys');
-const { getEmeraldApys } = require('./emerald');
-const { getOptimismApys } = require('./optimism');*/
+//const { getCeloApys } = require('./celo');
+//const { getMoonriverApys } = require('./moonriver');
+//const { getCronosApys } = require('./cronos');
+//const { getAuroraApys } = require('./aurora');
+//const { getFuseApys } = require('./fuse');
+//const { getMetisApys } = require('./metis');
+//const { getMoonbeamApys } = require('./moonbeam');
+//const { getSysApys } = require('./sys');
+//const { getEmeraldApys } = require('./emerald');
+//const { getOptimismApys } = require('./optimism');
 const { getKey, setKey } = require('../../utils/redisHelper');
 
 const INIT_DELAY = process.env.INIT_DELAY || 60 * 1000;
@@ -36,24 +36,24 @@ const updateApys = async () => {
 
   try {
     const results = await Promise.allSettled([
-      getDogeApys(),
+      //getDogeApys(),
       getMaticApys(),
-      /*getAvaxApys(),
-      getFantomApys(),
-      getHecoApys(),*/
+      //getAvaxApys(),
+      //getFantomApys(),
+      //getHecoApys(),
       getBSCApys(),
-      /*getOneApys(),
+      //getOneApys(),
       getArbitrumApys(),
-      getCeloApys(),
-      getMoonriverApys(),
-      getCronosApys(),
-      getAuroraApys(),
-      getFuseApys(),
-      getMetisApys(),
-      getMoonbeamApys(),
-      getSysApys(),
-      getEmeraldApys(),
-      getOptimismApys(),*/
+      //getCeloApys(),
+      //getMoonriverApys(),
+      //getCronosApys(),
+      //getAuroraApys(),
+      //getFuseApys(),
+      //getMetisApys(),
+      //getMoonbeamApys(),
+      //getSysApys(),
+      //getEmeraldApys(),
+      //getOptimismApys(),
     ]);
 
     for (const result of results) {

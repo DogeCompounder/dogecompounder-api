@@ -1,4 +1,4 @@
-const getComethLpApys = require('./getComethLpApys');
+/*const getComethLpApys = require('./getComethLpApys');
 const { getQuickLpApys } = require('./getQuickLpApys');
 const { getAaveApys } = require('./getAaveApys');
 const { getSushiLpApys } = require('./getSushiLpApys');
@@ -10,7 +10,6 @@ const getCurveApys = require('./getCurveApys');
 const getJetswapApys = require('./getJetswapApys');
 const getIronSwapApys = require('./getIronSwapApys');
 const { getApeLpApys } = require('./getApeLpApys');
-const getMaiApys = require('./getMaiApys').default;
 const getMaiCurveApys = require('./getMaiCurveApys');
 const { getTelxchangeApys } = require('./getTelxchangeApys');
 const { getPolygonFarmApys } = require('./getPolygonFarmApys');
@@ -27,11 +26,12 @@ const getRipaeApys = require('./getRipaeApys');
 const getBalancerPolyApys = require('./getBalancerPolyApys');
 const getGiddyApys = require('./getGiddyApys');
 const getSolaceApy = require('./getSolaceApy');
-const getDystopiaApys = require('./getDystopiaApys');
+const getDystopiaApys = require('./getDystopiaApys');*/
+const getMaiApys = require('./getMaiApys').default;
 const { getSandboxApy } = require('./getSandboxApy');
 
 const getApys = [
-  getbeQiApy,
+  /*getbeQiApy,
   getbeQiEarnApy,
   getComethLpApys,
   getQuickLpApys,
@@ -45,7 +45,6 @@ const getApys = [
   getPolygonBifiMaxiApy,
   getCurveApys,
   getApeLpApys,
-  getMaiApys,
   getMaiCurveApys,
   getJetswapApys,
   getIronSwapApys,
@@ -59,8 +58,9 @@ const getApys = [
   getBalancerPolyApys,
   getGiddyApys,
   getSolaceApy,
-  getDystopiaApys,
+  getDystopiaApys,*/
   getSandboxApy,
+  getMaiApys,
 ];
 
 const BATCH_SIZE = 15;
