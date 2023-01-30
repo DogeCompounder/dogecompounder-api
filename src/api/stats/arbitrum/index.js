@@ -8,6 +8,7 @@ const { getArbiBifiMaxiApy } = require('./getArbiBifiMaxiApy');
 const getStargateArbApys = require('./getStargateArbApys');
 const getRipaeApys = require('./getRipaeApys');
 const getRadiantLpApys = require('./getRadiantLpApys');*/
+import { getRadiantApy } from './getRadiantApy';
 import { getSynapseApys } from './getSynapseApys';
 
 const getApys = [
@@ -22,6 +23,7 @@ const getApys = [
   getArbiBifiMaxiApy,
   getStargateArbApys,*/
   getSynapseApys,
+  getRadiantApy,
 ];
 
 const getArbitrumApys = async () => {
