@@ -113,8 +113,14 @@ const getFarmApys = async (params: MiniChefApyParams) => {
   for (let i = 0; i < pools.length; i++) {
     const pool = pools[i];
 
-    const lpPrice = await fetchPrice({ oracle: 'lps', id: pool.name });
-    const totalStakedInUsd = balances[i].times(lpPrice).dividedBy('1e18');
+    const lpVirtualPrice = await fetchPrice({ oracle: 'lps', id: pool.name });
+    var lpPrice = lpVirtualPrice;
+    if (pool.oracle != undefined) {
+      // Update lpPrice based on underlying token
+      const underlyingPrice = await fetchPrice({ oracle: pool.oracle, id: pool.oracleId });
+      lpPrice = lpPrice / underlyingPrice;
+    }
+    const totalStakedInUsd = balances[i].dividedBy(lpPrice).dividedBy('1e18');
 
     let totalYearlyRewardsInUsd: BigNumber = new BigNumber(0);
 
