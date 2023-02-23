@@ -4,6 +4,7 @@ import Web3 from 'web3';
 import { Swap, Swap_ABI } from '../../../../abis/common/Swap';
 import { SingleAssetPool } from '../../../../types/LpPool';
 import { getContractWithProvider } from '../../../../utils/contractHelper';
+import fetchPrice from '../../../../utils/fetchPrice';
 
 // gets the prices of LPToken contracts deployed from Swap contracts.
 // Example is IronSwap (0x837503e8A8753ae17fB8C8151B8e6f586defCb57) on polygon
@@ -23,7 +24,6 @@ const getSwapPrices = async ({
   };
 
   const swapPools = pools.filter(pool => pool.swap !== undefined);
-
   const promises: Promise<[string, number]>[] = [];
   swapPools.forEach(pool => promises.push(getPrice(pool)));
   const values = await Promise.all(promises);
