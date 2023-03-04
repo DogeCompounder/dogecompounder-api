@@ -10,6 +10,7 @@ const getRipaeApys = require('./getRipaeApys');
 const getRadiantLpApys = require('./getRadiantLpApys');*/
 import { getRadiantApy } from './getRadiantApy';
 import { getSynapseApys } from './getSynapseApys';
+import { getGmxApys } from './getGmxApys';
 
 const getApys = [
   /*getRadiantLpApys,
@@ -24,6 +25,7 @@ const getApys = [
   getStargateArbApys,*/
   getSynapseApys,
   getRadiantApy,
+  getGmxApys,
 ];
 
 const getArbitrumApys = async () => {

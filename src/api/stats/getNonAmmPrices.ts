@@ -32,6 +32,7 @@ import getBeamswapPrices from './moonbeam/getBeamswapPrices';
 import getTrisolarisPrices from './aurora/getTrisolarisPrices';
 import getConeStablePrices from './bsc/getConeStablePrices';
 import getSpiritStablePrices from './fantom/getSpiritStablePrices';
+import getGmxArbitrumPrices from './arbitrum/getGmxPrices';
 
 const getNonAmmPrices = async tokenPrices => {
   let prices = {};
@@ -72,6 +73,7 @@ const getNonAmmPrices = async tokenPrices => {
     getJarvisPrices(tokenPrices),
     getSolarbeamPrices(tokenPrices),
     getStellaswapPrices(tokenPrices),
+    getGmxArbitrumPrices(tokenPrices),
   ];
 
   // Setup error logs
