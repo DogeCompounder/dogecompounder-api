@@ -18,6 +18,24 @@
     "swap": "0x9Dd329F5411466d9e0C488fF72519CA9fEf0cb40"
   },
   {
+    "name": "arbitrum-synapse-usdt-v2",
+    "address": "0xcFd72be67Ee69A0dd7cF0f846Fc0D98C33d60F16",
+    "oracle": "tokens",
+    "oracleId": "USDT",
+    "decimals": "1e18",
+    "poolId": 3,
+    "chainId": 42161,
+    "swap": "0x9Dd329F5411466d9e0C488fF72519CA9fEf0cb40"
+  },
+  {
+    "name": "arbitrum-synapse-usdc-v2",
+    "address": "0xcFd72be67Ee69A0dd7cF0f846Fc0D98C33d60F16",
+    "decimals": "1e18",
+    "poolId": 3,
+    "chainId": 42161,
+    "swap": "0x9Dd329F5411466d9e0C488fF72519CA9fEf0cb40"
+  },
+  {
     "name": "arbitrum-synapse-weth",
     "address": "0xD70A52248e546A3B260849386410C7170c7BD1E9",
     "oracle": "tokens",
