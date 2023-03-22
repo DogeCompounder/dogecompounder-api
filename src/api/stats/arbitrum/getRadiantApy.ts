@@ -7,7 +7,7 @@ import BigNumber from 'bignumber.js';
 import getApyBreakdown from '../common/getApyBreakdown';
 
 const secondsPerYear = 31536000;
-const radiantPool = '0x2032b9a8e9f7e76768ca9271003d3e43e1616b1f';
+const radiantPool = '0xF4B1486DD74D07706052A33d31d7c0AAFD0659E1';
 
 const IRadiantPoolAbi = [
   {
@@ -34,27 +34,27 @@ const IRadiantPoolAbi = [
 
 const pools = [
   {
-    name: 'arbitrum-radiant-wbtc',
+    name: 'arbitrum-radiant-wbtc-v2',
     asset: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
     oracleId: 'WBTC',
   },
   {
-    name: 'arbitrum-radiant-usdt',
+    name: 'arbitrum-radiant-usdt-v2',
     asset: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
     oracleId: 'USDT',
   },
   {
-    name: 'arbitrum-radiant-usdc',
+    name: 'arbitrum-radiant-usdc-v2',
     asset: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
     oracleId: 'USDC',
   },
   {
-    name: 'arbitrum-radiant-dai',
+    name: 'arbitrum-radiant-dai-v2',
     asset: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
     oracleId: 'DAI',
   },
   {
-    name: 'arbitrum-radiant-weth',
+    name: 'arbitrum-radiant-weth-v2',
     asset: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
     oracleId: 'WETH',
   },
@@ -88,7 +88,8 @@ export const getRadiantApys = async pools => {
   for (let i = 0; i < pools.length; i++) {
     const info = poolInfo[i];
 
-    const apy = info.supplyApy.div('1e27');
+    const apr = info.supplyApy.div('1e27');
+    const apy = apr.div(365).plus(1).pow(365).minus(1);
     apys.push(apy);
   }
   return apys;
